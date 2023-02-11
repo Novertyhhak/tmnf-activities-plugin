@@ -21,8 +21,7 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 
 ```/activity_showcols``` - returns all created timestamps (so basically column names) in chat
 
-```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:
-
+```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:       
 	*login* / 
 	*current average* / 
 	*improved average* / 
