@@ -2,16 +2,16 @@
 A xaseco plugin for Trackmania Forever. Allows you to save timestamps of operators and later compare those together.
 
 ## Contact & support
-**Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)
+**Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)\
 **PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak)
 
 ## Disclaimer
 I am still learning *php/mysql/xaseco* so don't mind the code!
 
 ## Usage
-Save a timestamp *(see ```activity_savetodb``` below).* 
-Come back after some time *(a week for example)* and save another timestamp.
-Now compare those two *(see ```activity_compare``` below)*.
+Save a timestamp *(see ```activity_savetodb``` below).*\
+Come back after some time *(a week for example)* and save another timestamp.\
+Now compare those two *(see ```activity_compare``` below)*.\
 If you don't remember how you have named your timestamps use ```/activity_showcols```
 
 ## Instalation
@@ -25,7 +25,7 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 
 ```/activity_showcols``` - returns all created timestamps *(so basically column names)* in chat
 
-```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:       
+```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:\
 	*login* / 
 	*current average* / 
 	*improved average* / 
