@@ -12,9 +12,9 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 
 ## Instalation
 1. Download the file
-2. Put it into xaseco/plugins/
-3. Add a line in xaseco/plugins.xml
-4. Restart xaseco (/admin shutdown)
+2. Put it into `xaseco/plugins/`
+3. Add a line in `xaseco/plugins.xml`
+4. Restart xaseco (`/admin shutdown`)
 
 ## Commands
 ```/activity_savetodb <name>``` - saves stats to the **activity** table in a column named <name> I recommend naming those timestamps with **YYYY_MM_DD format**.
