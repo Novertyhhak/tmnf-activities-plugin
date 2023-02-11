@@ -1,43 +1,15 @@
 <?php
 /*
-Written by Novertyhhak at the end of year 2022
-Discord - Novertyhhak#4104 or find me here https://discord.gg/BJzWRtw
-Feel free to edit this plugin to your needs, but remember to always credit me <3
+Written by Novertyhhak at the end of year 2022.
+Feel free to edit this plugin to your needs, just credit me :)
 
-Sorry for the messy code but I didnt know I would be sharing it!
-
-
-# USAGE #
-
-You can use it to compare specific stats of operators on your server.
-Might come handy to control inactive people
-
-
-
-# HOW TO USE IT #
-
-/activity_savetodb <name> - saves stats to the 'activity' table in a column named <name>
-I recommend naming those timestamps with YYYY_MM_DD format.
-
-/activity_showcols - returns all created timestamps (so basically column names) in chat
-
-/activity_compare <older> <newer> - compares an older timestamp <older> to a newer one <newer>
-and displays for every operator:
-	login
-	current average
-	improved average since older timestamp
-	time played since older timestamp
-	all recorded finishes since older timestamp
-	recorded visits since older timestamp
-
-/activity_removecol <name> - removes a timestamp you specified as the arg
-
-/lastonops - an additional command, simply shows /laston for every operator in a window
+README file at - https://github.com/Novertyhhak/tmnf-activity-plugin
 
 
 
 
-# ACTIVITY TABLE EXAMPLE STRUCTURE #
+
+ACTIVITY TABLE EXAMPLE STRUCTURE 
 
 +-------------------+-----------------------+-------
 | login             | some_date             |  ...
@@ -46,10 +18,6 @@ and displays for every operator:
 | login2            | 987654 321 987 65     |  ...
 | login3            | 896387 37507 159 31   |  ...
 | ...               | ...                   |  ... 
-
-
-
-
 
 */
 
