@@ -1,5 +1,7 @@
 # TMNF activity plugin
-A xaseco plugin for Trackmania Forever. Allows you to save timestamps of operators and later compare those together.
+A xaseco plugin for Trackmania Forever.\
+Allows you to save timestamps of operators and later compare those together.\
+Feel free to edit to your needs as long as you credit me.
 
 ## Contact & support
 **Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)\
@@ -12,10 +14,12 @@ I am still learning *php/mysql/xaseco* so don't mind the code!
 Save a timestamp *(see ```activity_savetodb``` below).*\
 Come back after some time *(a week for example)* and save another timestamp.\
 Now compare those two *(see ```activity_compare``` below)*.\
-If you don't remember how you have named your timestamps use ```/activity_showcols```
+If you don't remember how you have named your timestamps use ```/activity_showcols```\
+
+*(`activity_` commands are only for **MasterAdmins**)*
 
 ## Instalation
-1. Download the file
+1. Download the [latest release](https://github.com/Novertyhhak/tmnf-activity-plugin/archive/refs/heads/main.zip)
 2. Put it into `xaseco/plugins/`
 3. Add a line in `xaseco/plugins.xml`
 4. Restart xaseco (`/admin shutdown`)
@@ -35,4 +39,4 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 
 ```/activity_removecol <name>``` - removes a timestamp you specified as the arg
 
-```/lastonops``` - an additional command, simply shows /laston for every operator in a window
+```/lastonops``` - an additional command, simply shows /laston for every operator in a window, usable for admins too
