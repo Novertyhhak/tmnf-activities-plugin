@@ -11,7 +11,7 @@ Feel free to edit to your needs as long as you credit me.
 Save a timestamp *(see ```activity_savetodb``` below).*\
 Come back after some time *(a week for example)* and save another timestamp.\
 Now compare those two *(see ```activity_compare``` below)*.\
-If you don't remember how you have named your timestamps use ```/activity_showcols```\
+If you don't remember how you have named your timestamps use ```/activity_showcols```
 
 *(`activity_` commands are only for **MasterAdmins**)*
 
