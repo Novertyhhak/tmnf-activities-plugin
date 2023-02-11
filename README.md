@@ -3,7 +3,7 @@ A xaseco plugin for Trackmania Forever. Allows you to save timestamps of operato
 
 ## Contact & support
 **Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)\
-**PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak) **<3**
+**PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak) ❤
 
 ## Disclaimer
 I am still learning *php/mysql/xaseco* so don't mind the code!
