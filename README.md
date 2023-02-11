@@ -22,12 +22,12 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 ```/activity_showcols``` - returns all created timestamps (so basically column names) in chat
 
 ```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:
-	*login
-	*current average*
-	*improved average since older timestamp*
-	*time played since older timestamp*
-	*all recorded finishes since older timestamp*
-	*recorded visits since older timestamp*
+	- *login*
+	- *current average*
+	- *improved average since older timestamp*
+	- *time played since older timestamp*
+	- *all recorded finishes since older timestamp*
+	- *recorded visits since older timestamp*
 
 ```/activity_removecol <name>``` - removes a timestamp you specified as the arg
 
