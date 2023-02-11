@@ -17,9 +17,9 @@ If you don't remember how you have named your timestamps use ```/activity_showco
 4. Restart xaseco (/admin shutdown)
 
 ## Commands
-```/activity_savetodb <name>``` - saves stats to the 'activity' table in a column named <name> I recommend naming those timestamps with YYYY_MM_DD format.
+```/activity_savetodb <name>``` - saves stats to the **activity** table in a column named <name> I recommend naming those timestamps with **YYYY_MM_DD format**.
 
-```/activity_showcols``` - returns all created timestamps (so basically column names) in chat
+```/activity_showcols``` - returns all created timestamps *(so basically column names)* in chat
 
 ```/activity_compare <older> <newer>``` - compares an older timestamp <older> to a newer one <newer> and displays for every operator:       
 	*login* / 
