@@ -7,9 +7,6 @@ Feel free to edit to your needs as long as you credit me.
 **Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)\
 **PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak) ❤
 
-## Disclaimer
-I am still learning *php/mysql/xaseco* so don't mind the code!
-
 ## Usage
 Save a timestamp *(see ```activity_savetodb``` below).*\
 Come back after some time *(a week for example)* and save another timestamp.\
