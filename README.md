@@ -1,8 +1,12 @@
 # TMNF activity plugin
 A xaseco plugin for Trackmania Forever. Allows you to save timestamps of operators and later compare those together.
 
+## Contact & support
+**Discord** -  `Novertyhhak#4104` or [this server](https://discord.gg/BJzWRtw)
+**PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak)
+
 ## Disclaimer
-The code isn't the best, didn't think I would be sharing it!
+I am still learning *php/mysql/xaseco* so don't mind the code!
 
 ## Usage
 Save a timestamp *(see ```activity_savetodb``` below).* 
