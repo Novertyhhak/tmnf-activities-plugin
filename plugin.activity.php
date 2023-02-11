@@ -22,12 +22,13 @@ ACTIVITY TABLE EXAMPLE STRUCTURE
 */
 
 Aseco::registerEvent('onStartup',   				'activity_startup');
+
 Aseco::addChatCommand('activity_savetodb', 			'saves activity data to db');
 Aseco::addChatCommand('activity_showcols', 			'shows colums');
 Aseco::addChatCommand('activity_compare', 			'compares two columns');
-Aseco::addChatCommand('activity_removecol', 		'removes a column');
+Aseco::addChatCommand('activity_removecol', 			'removes a column');
 
-Aseco::addChatCommand('lastonops', 					'checks laston on members');
+Aseco::addChatCommand('lastonops', 				'checks laston on members');
 
 
 // is called at the start
