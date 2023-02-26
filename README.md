@@ -23,16 +23,18 @@ Some edge cases may have slipped under my eyes, please write me if something doe
 
 ## Usage
 ![compareexample](https://raw.githubusercontent.com/Novertyhhak/tmnf-activities-plugin/main/activities_compare_example.png)
+
 Set up the config file (`activities.xml`) to your needs.
 If you use the LIST mode, write a list of logins you want to use. Do it either by hand or with the help of `/listassist` command.\
 (Remember to remove example logins from the list. Also put each login in another line, like how its done in the example)\
-Save a timestamp (see ```activity save``` below).\
+Save a timestamp (see ```activities save``` below).\
 Come back after some time (a week for example) and save another timestamp.\
-Now compare those two (see ```activity compare``` below).\
-If you don't remember how you have named your timestamps use ```/activity timestamps```
+Now compare those two (see ```activities compare``` below).\
+If you don't remember how you have named your timestamps use ```/activities timestamps```
 
 ## activities commands
 Note: those can be used in any mode
+Note2: refferring to 'the list' here as the list of what mode you chose (list, list of operators, list of everyone)
 Abbrev: `/acv` (if enabled in the config)
 
 ```/activities help``` - sents some help (activities commands, github link), *(permissions->help in config file)*
@@ -72,4 +74,33 @@ Abbrev: `/la` (if enabled in the config)
 ```/listassist load <name>``` - loads a list, best to give full destination, for example `activities_backup/backup123.txt`, but the plugin can find the file even if you specify `backup123`.
 	
 ```/listassist list``` - same as ```/actvities list```
+	
+
+## Config file
+**abbrev** - enables abbrev commands (`/acv` and `/la`), before enabling, make sure no other plugin uses /acv and /la. `true/false`
+
+**mode** - choose the mode to your needs:
+0 - LIST,  1 - OPERATORS,  2 - EVERYONE
+
+**thelist** - list destination where you put login (for LIST mode), don't change it, unless you have a reason to.
+
+**listbackupfolder** - folder name where the plugin saves backups, the plugin will automatically create the folder if it doesn't exist
+
+**autoreloadlist** - if enabled, automatically reloads the list after using /listassist: add, remove, clear, load. `true/false`
+
+# permissions
+0 - MasterAdmin,  1 - Admin,  2 - Operator
+
+**help** - `/activities help`, isn't harmful so can be even enabled to operators
+**save** - `/activities save`, leave to people who know what they are doing (either MAdmins or Admins)
+**timestamps** - `/activities timestamps`, isn't harmful, but set it same as for **save**
+**compare** - `/activities compare`, isn't harmful, set it to whoever you want to see the comparision
+**remove** - `/activities remove`, leave it to people who know what they are doing (either MAdmins or Admins)
+**laston** - `/activities laston`, isn't harmful, set it to whoever you want to see the laston list
+**list** - `/activities list`, isn't harmful, set it to whoever you want to see list
+**listassist** - `/listassist`` commands, leave to people who know what they are doing (either MAdmins or Admins)	
+	
+	
+	
+	
 	
