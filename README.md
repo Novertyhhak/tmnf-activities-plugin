@@ -32,9 +32,9 @@ Come back after some time (a week for example) and save another timestamp.\
 Now compare those two (see ```activities compare``` below).\
 If you don't remember how you have named your timestamps use ```/activities timestamps```
 
-## activities commands
-Note: those can be used in any mode
-Note2: refferring to 'the list' here as the list of what mode you chose (list, list of operators, list of everyone)
+## Commands for /activities
+Note: those can be used in any mode\
+Note2: refferring to 'the list' here as the list of what mode you chose (list, list of operators, list of everyone)\
 Abbrev: `/acv` (if enabled in the config)
 
 ```/activities help``` - sents some help (activities commands, github link), *(permissions->help in config file)*
@@ -53,8 +53,8 @@ Shows: *login / current average / improved average / compared time played / comp
 	
 ```/activities list``` - displays the list, *(permissions->list in config file)*
 	
-## listassist commands
-Note: those can only be used in the LIST mode, one permission for all commands *(permissions->listassist in config file)*
+## Commands for /listassist
+Note: those can only be used in the LIST mode, one permission for all commands *(permissions->listassist in config file)*\
 Abbrev: `/la` (if enabled in the config)
 
 ```/listassist help``` - sents some help (listassist commands, github link)
@@ -79,7 +79,7 @@ Abbrev: `/la` (if enabled in the config)
 ## Config file
 **abbrev** - enables abbrev commands (`/acv` and `/la`), before enabling, make sure no other plugin uses /acv and /la. `true/false`
 
-**mode** - choose the mode to your needs:
+**mode** - choose the mode to your needs:\
 0 - LIST,  1 - OPERATORS,  2 - EVERYONE
 
 **thelist** - list destination where you put login (for LIST mode), don't change it, unless you have a reason to.
@@ -88,17 +88,17 @@ Abbrev: `/la` (if enabled in the config)
 
 **autoreloadlist** - if enabled, automatically reloads the list after using /listassist: add, remove, clear, load. `true/false`
 
-# permissions
+**permissions:**\
 0 - MasterAdmin,  1 - Admin,  2 - Operator
 
-**help** - `/activities help`, isn't harmful so can be even enabled to operators
-**save** - `/activities save`, leave to people who know what they are doing (either MAdmins or Admins)
-**timestamps** - `/activities timestamps`, isn't harmful, but set it same as for **save**
-**compare** - `/activities compare`, isn't harmful, set it to whoever you want to see the comparision
-**remove** - `/activities remove`, leave it to people who know what they are doing (either MAdmins or Admins)
-**laston** - `/activities laston`, isn't harmful, set it to whoever you want to see the laston list
-**list** - `/activities list`, isn't harmful, set it to whoever you want to see list
-**listassist** - `/listassist`` commands, leave to people who know what they are doing (either MAdmins or Admins)	
+**help** - `/activities help`, isn't harmful so can be even enabled to operators\
+**save** - `/activities save`, leave to people who know what they are doing (either MAdmins or Admins)\
+**timestamps** - `/activities timestamps`, isn't harmful, but set it same as for **save**\
+**compare** - `/activities compare`, isn't harmful, set it to whoever you want to see the comparision\
+**remove** - `/activities remove`, leave it to people who know what they are doing (either MAdmins or Admins)\
+**laston** - `/activities laston`, isn't harmful, set it to whoever you want to see the laston list\
+**list** - `/activities list`, isn't harmful, set it to whoever you want to see list\
+**listassist** - `/listassist`` commands, leave to people who know what they are doing (either MAdmins or Admins)\
 	
 	
 	
