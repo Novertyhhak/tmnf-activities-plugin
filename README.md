@@ -74,8 +74,12 @@ Abbrev: `/la` (if enabled in the config)
 ```/listassist load <name>``` - loads a list, best to give full destination, for example `activities_backup/backup123.txt`, but the plugin can find the file even if you specify `backup123`.
 	
 ```/listassist list``` - same as ```/actvities list```
-	
 
+## List file
+Find the list file in the root directory of xaseco.\
+Default file: `activities_logins.txt`, you can change it in the config file in the **thelist** tag.\
+Put each login in new line.
+	
 ## Config file
 **abbrev** - enables abbrev commands (`/acv` and `/la`), before enabling, make sure no other plugin uses /acv and /la. `true/false`
 
