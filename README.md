@@ -88,7 +88,7 @@ Abbrev: `/la` (if enabled in the config)
 
 **autoreloadlist** - if enabled, automatically reloads the list after using /listassist: add, remove, clear, load. `true/false`
 
-#### permissions:
+### permissions:
 0 - MasterAdmin,  1 - Admin,  2 - Operator
 
 **help** - `/activities help`, isn't harmful so can be even enabled to operators\
