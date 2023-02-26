@@ -101,6 +101,10 @@ Abbrev: `/la` (if enabled in the config)
 **listassist** - `/listassist` commands, leave to people who know what they are doing (either MAdmins or Admins)\
 	
 	
-	
-	
-	
+## Story
+First version of this plugin was written at the end of year 2022.\
+Firstly it was named as 'activity' plugin, and only had /activities commands, and only supported operators for the list.\
+Two months later, a friend asked for the plugin and I decided to publish it.\
+Decided to add support for other modes (list and everyone), config file and also wrote the /listassist part.\
+In meantime, figured out /activity is used by some other plugin so I had to change the name.\
+Spent countless hours on this project. Hope it's useful for you :)
