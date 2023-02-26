@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+    <!-- Allow ABBREV? true or false
+    before allowing, make sure '/acv' and '/la' aren't arleady taken by some other plugin
+    -->
+    <abbrev>false</abbrev>
+
+    <!-- Modes:
+    0 - list
+    1 - operators
+    2 - everyone 
+    -->
+    <mode>0</mode>
+
+    <!-- this is the file in xaseco dir where you put logins -->
+    <thelist>activities_logins.txt</thelist>
+
+    <!-- this is the folder in xaseco dir where you can create backups of your list
+    with /listassist backup <namearg> -->
+    <listbackupfolder>activities_backup</listbackupfolder>
+
+    <!-- allow reloading automatically the list after adding, removing, clearing, changing?
+    don't change it unless you have reasons to.
+    set true or false -->
+    <autoreloadlist>true</autoreloadlist>
+
+    <!-- Permissions:
+    0 - MasterAdmin
+    1 - Admins and above
+    2 - Operators and above
+    for commands:
+    -->
+    <permissions>
+        <help>0</help>
+        <save>0</save>
+        <timestamps>0</timestamps>
+        <compare>0</compare>
+        <remove>0</remove>
+        <laston>1</laston>
+        <list>0</list>
+        <listassist>0</listassist>
+    </permissions>
+
+</settings>
