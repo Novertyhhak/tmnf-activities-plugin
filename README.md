@@ -14,7 +14,7 @@ If you have a server and want to check activity for a certain group of players, 
 The plugin was tested on php 7.3 version. Things might misbehave if you use lower versions (like php 5).\
 Some edge cases may have slipped under my eyes, please write me if something doesn't work as intended.
 
-## Instalation
+## Installation
 1. Download the [latest release](https://github.com/Novertyhhak/tmnf-activities-plugin/archive/refs/heads/main.zip)
 2. Unzip and move `plugin.activities.php` into `xaseco/plugins/`
 3. Move `activities.xml` and `activities_logins.txt` into the root `xaseco` directory
@@ -29,13 +29,13 @@ If you use the LIST mode, write a list of logins you want to use. Do it either b
 (Remember to remove example logins from the list. Also put each login in another line, like how its done in the example)\
 Save a timestamp (see ```activities save``` below).\
 Come back after some time (a week for example) and save another timestamp.\
-Now compare those two (see ```activities compare``` below).\
+Now compare your two timestamps (see ```activities compare``` below).\
 If you don't remember how you have named your timestamps use ```/activities timestamps```
 
 ## Commands for /activities
-Note: those can be used in any mode\
-Note2: refferring to 'the list' here as the list of what mode you chose (list, list of operators, list of everyone)\
-Abbrev: `/acv` (if enabled in the config)
+Note: these commands can be used in any mode\
+Note2: refferring to *the list* as the list of mode you set to (list, list of operators, list of everyone)\
+Abbrev: `/acv` *(if enabled in the config)*
 
 ```/activities help``` - sents some help (activities commands, github link), *(permissions->help in config file)*
 
@@ -54,8 +54,8 @@ Shows: *login / current average / improved average / compared time played / comp
 ```/activities list``` - displays the list, *(permissions->list in config file)*
 	
 ## Commands for /listassist
-Note: those can only be used in the LIST mode, one permission for all commands *(permissions->listassist in config file)*\
-Abbrev: `/la` (if enabled in the config)
+Note: these commands can only be used in the LIST mode, one permission for all commands *(permissions->listassist in config file)*\
+Abbrev: `/la` *(if enabled in the config)*
 
 ```/listassist help``` - sents some help (listassist commands, github link)
 
@@ -103,12 +103,3 @@ Put each login in new line.
 **laston** - `/activities laston`, isn't harmful, set it to whoever you want to see the laston list\
 **list** - `/activities list`, isn't harmful, set it to whoever you want to see list\
 **listassist** - `/listassist` commands, leave to people who know what they are doing (either MAdmins or Admins)\
-	
-	
-## Story
-First version of this plugin was written at the end of year 2022.\
-Firstly it was named as 'activity' plugin, and only had /activities commands, and only supported operators for the list.\
-Two months later, a friend asked for the plugin and I decided to publish it.\
-Decided to add support for other modes (list and everyone), config file and also wrote the /listassist part.\
-In meantime, figured out /activity is used by some other plugin so I had to change the name.\
-Spent countless hours on this project. Hope it's useful to you :)
