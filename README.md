@@ -11,7 +11,7 @@ If you have a server and want to check activity for a certain group of players, 
 **PayPal** - [paypal.me/Novertyhhak](https://paypal.me/Novertyhhak) ❤
 
 ## Disclaimer & warning
-The plugin was tested on php 7.3 version.\
+The plugin was tested on php 7.3 version. Things might misbehave if you use lower versions (like php 5).\
 Some edge cases may have slipped under my eyes, please write me if something doesn't work as intended.
 
 ## Instalation
@@ -111,4 +111,4 @@ Firstly it was named as 'activity' plugin, and only had /activities commands, an
 Two months later, a friend asked for the plugin and I decided to publish it.\
 Decided to add support for other modes (list and everyone), config file and also wrote the /listassist part.\
 In meantime, figured out /activity is used by some other plugin so I had to change the name.\
-Spent countless hours on this project. Hope it's useful for you :)
+Spent countless hours on this project. Hope it's useful to you :)
